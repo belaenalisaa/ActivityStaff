@@ -2,9 +2,9 @@ package com.bela.activitystaff
 
 import com.google.gson.annotations.SerializedName
 
-data class ResultStaff{
+class ResultStaff{
     @field:SerializedName("pesan")
-    val pesan: String? = null,
+    val pesan: String? = null
 
     @field:SerializedName("staff")
     val staff: List<DataItem>? = null
